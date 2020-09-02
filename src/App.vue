@@ -9,7 +9,7 @@ export default {
   components: {},
   setup(props) {
     const asideVisible = ref(false)
-    provide('xxx', asideVisible)
+    provide('asideVisible', asideVisible)
   },
 }
 </script>
