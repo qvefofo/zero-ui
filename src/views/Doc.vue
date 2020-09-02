@@ -35,7 +35,6 @@ export default {
   components: { Topnav },
   setup(props) {
     const asideVisible = inject<Ref<boolean>>('xxx')
-    console.log('doc 获取的 asideVisible为：' + asideVisible.value)
     return { asideVisible }
   },
 }
