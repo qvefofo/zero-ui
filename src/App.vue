@@ -3,13 +3,9 @@
 </template>
 
 <script>
-import Xing from './components/Xing.vue'
-
 export default {
   name: 'App',
-  components: {
-    Xing,
-  },
+  components: {},
   setup(props) {},
 }
 </script>
