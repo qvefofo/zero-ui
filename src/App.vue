@@ -2,10 +2,14 @@
   <router-view></router-view>
 </template>
 
-<script>
+<script lang="ts">
+import { ref, provide } from 'vue'
 export default {
   name: 'App',
   components: {},
-  setup(props) {},
+  setup(props) {
+    const asideVisible = ref(false)
+    provide('xxx', asideVisible)
+  },
 }
 </script>
