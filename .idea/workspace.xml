@@ -21,7 +21,7 @@
     <session id="-93284279">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -272,7 +272,7 @@
       <updated>1595837118939</updated>
       <workItem from="1595837120371" duration="868000" />
       <workItem from="1598946285469" duration="1510000" />
-      <workItem from="1598948360112" duration="1325000" />
+      <workItem from="1598948360112" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1595837168052</created>
@@ -292,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3703000" />
+    <option name="totallyTimeSpent" value="4299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

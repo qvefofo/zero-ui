@@ -1,9 +1,9 @@
 <template>
-<div>我是第二个组件</div>
+  <div class="myClassName"></div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>
