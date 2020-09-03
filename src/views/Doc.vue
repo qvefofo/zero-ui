@@ -41,11 +41,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 aside {
-  position: fixed;
   width: 150px;
   padding: 16px;
-  top: 50px;
-  left: 0;
+
   background-color: lightblue;
   > h2 {
     margin-bottom: 4px;
@@ -54,6 +52,11 @@ aside {
     > li {
       padding: 4px 0;
     }
+  }
+  @media (max-width: 500px) {
+    position: fixed;
+    top: 50px;
+    left: 0;
   }
 }
 </style>
