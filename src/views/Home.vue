@@ -2,7 +2,7 @@
   <div>
     <Topnav />
     <div class="banner">
-      <h1>zoro UI</h1>
+      <h1>Zero UI</h1>
       <h2>一个厉害的 UI框架</h2>
       <p class="actions">
         <a href="https://github.com">Github</a>
@@ -21,6 +21,7 @@ export default {
 .banner {
   padding: 100px 0;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
